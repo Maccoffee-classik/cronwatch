@@ -1,0 +1,231 @@
+
+.bg-page-buy{
+    height: 620px;
+    background: url(/verstka/img/bg-section-top-buy.jpg) no-repeat center top;
+    background-size: cover;
+}
+.bg-page-buy .wrapper{
+    position: relative;
+    padding-top: 290px;
+}
+.bg-page-buy .section-top-title{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bg-page-buy .section-top-slogan{
+    color: #ffffff;
+}
+
+.section-page-buy-intro{}
+.page-buy-intro-text{
+    padding: 116px 180px;
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 120%;
+    text-align: center;
+    color: #000000;
+    border-bottom: 1px solid rgba(0,0,0,.3);
+}
+
+.section-page-buy-history{
+    margin-bottom: 60px;
+    padding-top: 90px;
+}
+.section-page-buy-history .wrapper.flex{
+    display: flex;
+    align-items: center;
+    margin-bottom: 90px;
+}
+.page-buy-history-title{
+    width: 50%;
+    padding-right: 12%;
+    flex: 1 0 auto;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 118.2%;
+    text-transform: uppercase;
+    color: #000000;
+}
+.page-buy-history-text{
+    width: 50%;
+    padding-right: 12%;
+    flex: 1 0 auto;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 128%;
+    color: #737373;
+}
+.page-buy-history-bg{
+    position: relative;
+    width: 100%;
+    height: 340px;
+}
+.page-buy-history-bg:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 1520px;
+    height: 100%;
+    background: url(/verstka/img/bg-page-buy-history.jpg) no-repeat right top;
+}
+
+.section-page-buy-warranty{margin-bottom: 150px;}
+.section-page-buy-warranty .block-top-label{
+    width: 300px;
+    margin-bottom: 100px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 128%;
+    color: #ADADAD;
+}
+.section-page-buy-warranty .more-link{}
+.page-buy-warranty-title{
+    font-weight: 300;
+    font-size: 70px;
+    line-height: 118.2%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    width: 600px;
+    margin: 0 auto 100px;
+}
+.page-buy-warranty-row{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding-top: 124px;
+    border-top: 1px solid rgba(0,0,0,.3);
+}
+.page-buy-warranty-block-1{
+    padding-bottom: 60px;
+}
+.page-buy-warranty-block-2 .page-buy-waranty-text{
+    max-width: 420px;
+}
+.page-buy-warranty-block-2{
+    width: 50%;
+    flex: 1 0 auto;
+    padding-top: 240px;
+}
+.page-buy-waranty-label{
+    margin-bottom: 35px;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 118.2%;
+    text-transform: uppercase;
+    color: #000000;
+}
+.page-buy-waranty-text{
+    margin-bottom: 30px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 128%;
+    color: #737373;
+}
+.page-buy-warranty-block-1 picture{
+    display: block;
+    margin-bottom: 30px;
+}
+.page-buy-warranty-block-1 .more-link{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 316px;
+    height: 72px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 88.2%;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+}
+
+.section-page-buy-advantage{
+    margin-bottom: 130px;
+}
+.section-page-buy-advantage .more{}
+.section-page-buy-advantage .more-link{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 260px;
+    height: 72px;
+    margin: -60px auto 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 88.2%;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+}
+.section-page-buy-advantage .block-top-label{
+    margin-bottom: 60px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 128%;
+    color: #ADADAD;
+}
+.page-buy-advantage-row{
+    display: flex;
+}
+.page-buy-advantage-block-1{
+    padding-top: 50px;
+}
+.page-buy-advantage-block-1,
+.page-buy-advantage-block-2{
+    width: 50%;
+    flex: 1;
+}
+.page-buy-advantage-label{
+    margin-bottom: 50px;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 118.2%;
+    text-transform: uppercase;
+    color: #000000;
+}
+.page-buy-advantage-text{
+    width: 360px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 120%;
+    color: #737373;
+}
+
+.section-page-buy-option-list{
+    margin-bottom: 115px;
+}
+.page-buy-option{
+    display: flex;
+    align-items: center;
+    padding: 54px 60px;
+    background: rgb(196 196 196 / 10%);
+}
+.page-buy-option + .page-buy-option{
+    margin-top: 30px;
+}
+.buy-option-icon{
+    width: 114px;
+    margin-right: 20px;
+    text-align: center;
+    flex: 1 0 auto;
+}
+.buy-option-title{
+    width: calc(50% - 114px);
+    flex: 1 0 auto;
+    font-size: 25px;
+    line-height: 118.2%;
+    text-transform: uppercase;
+    color: #000000;
+}
+.buy-option-text{
+    width: 50%;
+    flex: 1 0 auto;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 128%;
+    color: #000000;
+}

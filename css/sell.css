@@ -1,0 +1,297 @@
+.bg-page-sell{
+    height: 610px;
+    margin-bottom: 100px;
+    background: url(/verstka/img/bg-section-top-sell.jpg) no-repeat center top;
+    background-size: cover;
+}
+.bg-page-sell .wrapper{
+    position: relative;
+    padding-top: 310px;
+}
+.bg-page-sell .section-top-title{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bg-page-sell .section-top-slogan{
+    color: #ffffff;
+}
+
+.section-quick-assessment{
+    margin-bottom: 90px;
+}
+.quick-assessment-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.quick-assessment-block-1{
+    width: 50%;
+    padding-right: 40px;
+}
+.quick-assessment-block-2{
+    width: 50%;
+    padding-top: 24px;
+    padding-right: 40px;
+}
+.quick-assessment-title{
+    margin-bottom: 40px;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 118.2%;
+    text-transform: uppercase;
+    color: #000000;
+}
+.quick-assessment-text{
+    max-width: 540px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 128%;
+    color: #000000;
+}
+.profitable-terms-title{
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 118.2%;
+    text-transform: uppercase;
+    color: #000000;
+}
+.profitable-terms-title:after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin-top: 15px;
+    background: #000000;
+    opacity: .3;
+}
+.profitable-terms-text{
+    max-width: 360px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 128%;
+    color: #727272;
+}
+.more.quick-assessment-leave-request{}
+.quick-assessment-leave-request-btn{
+    display: flex;
+    width: 400px;
+    height: 82px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px auto 0;
+    font-weight: 500;
+    font-size: 29px;
+    line-height: 88.2%;
+    color: #000000;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.section-how-sell{
+    margin-bottom: 150px;
+}
+.how-sell-bg{
+    position: relative;
+    width: 100%;
+    height: 340px;
+    margin-bottom: 90px;
+}
+.how-sell-bg:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: block;
+    width: 1539px;
+    height: 100%;
+    background: url(/verstka/img/bg-section-how-sell.jpg) no-repeat right top;
+}
+.how-sell-row{
+    display: flex;
+}
+.how-sell-block-1{
+    width: 50%;
+    flex: 1 0 auto;
+}
+.how-sell-block-2{}
+.how-sell-title{
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 118.2%;
+    text-transform: uppercase;
+    color: #000000;
+}
+.how-sell-step{
+    position: relative;
+    display: flex;
+    padding-bottom: 36px;
+}
+.how-sell-step:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #000000;
+    opacity: .3;
+}
+.how-sell-step + .how-sell-step{
+    margin-top: 70px;
+}
+.how-sell-step-num{
+    width: 50px;
+    padding-top: 5px;
+    flex: 1 0 auto;
+    font-size: 18px;
+    line-height: 118.2%;
+    color: #000000;
+}
+.how-sell-step-title{
+    width: 310px;
+    flex: 1 0 auto;
+    padding-right: 10px;
+    font-size: 29px;
+    line-height: 118.2%;
+    text-transform: uppercase;
+    color: #000000;
+}
+.how-sell-step-text{
+    padding-top: 3px;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 118%;
+    color: #727272;
+}
+.how-sell-step-1{}
+.how-sell-step-2{}
+.how-sell-step-3{}
+.how-sell-rate{
+    margin-top: 25px;
+}
+.how-sell-rate-btn{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 88.2%;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 286px;
+    height: 72px;
+}
+
+.section-how-prepare{
+    margin-bottom: 140px;
+}
+.how-prepare-row{
+    display: flex;
+}
+.how-prepare-block-1{
+    width: 50%;
+    padding-right: 46px;
+}
+.how-prepare-block-2{
+    width: 50%;
+    padding-top: 130px;
+}
+.how-prepare-title{
+    padding-right: 200px;
+    margin-bottom: 30px;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 118.2%;
+    text-transform: uppercase;
+    color: #000000;
+}
+.how-prepare-text{
+    margin-bottom: 80px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 128%;
+    color: #000000;
+}
+.how-prepare-block-1 .how-prepare-text{
+    padding-bottom: 50px;
+    padding-right: 100px;
+}
+.how-prepare-block-1 .how-prepare-quote{
+    padding-right: 30px;
+    margin-right: 0;
+    margin-left: auto;
+}
+.how-prepare-block-1 .how-prepare-pic{
+    text-align: right;
+}
+.how-prepare-block-2 .how-prepare-text{
+    max-width: 350px;
+}
+.how-prepare-quote{
+    position: relative;
+    width: 380px;
+    padding-left: 48px;
+    margin-bottom: 60px;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 90%;
+    color: #727272;
+}
+.how-prepare-quote:before{
+    content: '“';
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    font-weight: 300;
+    font-size: 57px;
+    line-height: 118%;
+    color: #727272;
+}
+.how-prepare-pic{
+    margin-bottom: 40px;
+}
+
+.section-can-not-accept{
+    margin-bottom: 146px;
+}
+.can-not-accept-title{
+    margin-bottom: 45px;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 118.2%;
+    text-transform: uppercase;
+    color: #000000;
+}
+.can-not-accept-title:after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin-top: 40px;
+    background: #000000;
+    opacity: .3;
+}
+.can-not-accept-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.can-not-accept-text1 {
+    width: 50%;
+    padding-right: 140px;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 128%;
+    color: #737373;
+}
+.can-not-accept-text2 {
+    width: 50%;
+    padding-right: 140px;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 128%;
+    color: #737373;
+}

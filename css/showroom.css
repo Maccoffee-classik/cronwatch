@@ -1,0 +1,68 @@
+.bg-showroom{
+    height: 756px;
+    background: url(/verstka/img/bg-section-top-showroom.jpg) no-repeat center top;
+    background-size: cover;
+}
+.bg-showroom .wrapper{
+    position: relative;
+    height: 100%;
+    padding-top: 284px;
+    color: #ffffff;
+    text-align: center;
+}
+.section-showroom-map{
+    padding-bottom: 0px;
+    background: #141414;
+}
+.section-showroom-map .wrapper{
+    position: relative;
+    display: flex;
+    margin-top: -120px;
+    z-index: 2;
+}
+.showroom-map{}
+.showroom-info{
+    padding: 50px;
+    flex: 1;
+    background: #ffffff;
+}
+.showroom-top-label{
+    margin-bottom: 90px;
+    color: #535353;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 118.2%;
+}
+.showroom-work-time{
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 118.2%;
+    text-transform: uppercase;
+    color: #989898;
+    text-align: center;
+}
+.showroom-address{
+    margin-bottom: 90px;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 118.2%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+.showroom-phone,
+.showroom-phone a{
+    color: #000000;
+    font-size: 29px;
+    line-height: 118.2%;
+    text-transform: uppercase;
+}
+.showroom-phone a{
+    text-decoration: none;
+}
+.showroom-phone a:hover{
+    color: #989898;
+}
+
+ 
